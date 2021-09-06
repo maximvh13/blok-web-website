@@ -16,13 +16,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
-Sanne 't Hooft (vervangen door jouw naam)
+Maxim van Heemsbergen
 
 #### Je startniveau:
-hier je startniveau (kies uit zwart, rood óf blauw)
+Blauw
 
 #### Je focus:
-hier je focus (kies uit responsive óf surface plane)
+Surface plane
  
 </details>
 
@@ -36,11 +36,12 @@ hier je focus (kies uit responsive óf surface plane)
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+https://www.youtube.com/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Website blok web
+<img src="images/dummy![Schermafbeelding 2021-09-06 om 13 02 32](https://user-images.githubusercontent.com/90190991/132210713-92e2e875-d639-4de7-beac-57cbe4735328.png)
+-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
