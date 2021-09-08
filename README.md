@@ -1,3 +1,4 @@
+![Schermafbeelding 2021-09-08 om 10 35 03](https://user-images.githubusercontent.com/90190991/132475595-c4c8676b-2913-497b-8820-0569f849753a.png)
 # Procesverslag
 Markdown is een simpele manier om HTML te schrijven.  
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
@@ -41,6 +42,8 @@ https://www.youtube.com/
 #### Screenshot(s) van de eerste pagina (small screen): 
 Website blok web
 <img src="images/dummy!-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+ ![Schermafbeelding 2021-09-08 om 10 35 03](https://user-images.githubusercontent.com/90190991/132475631-10e192cb-b1e6-4284-b546-4d97e29dea1f.png)
+
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
