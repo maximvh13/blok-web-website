@@ -46,7 +46,8 @@ Website blok web
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-![Schermafbeelding 2021-09-09 om 12 08 15](https://user-images.githubusercontent.com/90190991/132667207-90ea72ac-8088-41cf-a3ce-083f4acb58a9.png)
+![Schermafbeelding 2021-09-09 om 12 09 32](https://user-images.githubusercontent.com/90190991/132667378-9c41b794-919f-4a5d-a601-a0e2e86c74e5.png)
+
 
  
 </details>
