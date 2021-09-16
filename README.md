@@ -40,13 +40,14 @@ https://www.youtube.com/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Website blok web
-<img src="images/dummy!-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
- ![Schermafbeelding 2021-09-08 om 10 35 03](https://user-images.githubusercontent.com/90190991/132475631-10e192cb-b1e6-4284-b546-4d97e29dea1f.png)
+![Schermafbeelding 2021-09-16 om 10 11 05](https://user-images.githubusercontent.com/90190991/133576003-0925a25e-e597-451e-9513-b48d5ae090c6.png)
+
 
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-![Schermafbeelding 2021-09-09 om 12 09 32](https://user-images.githubusercontent.com/90190991/132667378-9c41b794-919f-4a5d-a601-a0e2e86c74e5.png)
+![Schermafbeelding 2021-09-16 om 10 14 38](https://user-images.githubusercontent.com/90190991/133576676-11036c00-0b25-49d5-aee0-930f97797c20.png)
+
 
 
  
@@ -60,6 +61,9 @@ hier de naam van de pagina
 
 <details>
 <summary>uitwerken na afloop 2e werkgroep</summary>
+ 
+ Aardig wat opgestoken van de besporken opdrachten. Het lijkt me wel moeilijk om het zelf te gaan doen, maar ik denk dat 
+ het uiteindelijk wel te doen is.
 
 ### de hele pagina: 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
