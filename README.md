@@ -19,7 +19,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 Maxim van Heemsbergen
 
 #### Je startniveau:
-Blauw
+blauw
 
 #### Je focus:
 Surface plane
@@ -40,16 +40,11 @@ https://www.youtube.com/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Website blok web
-![Schermafbeelding 2021-09-16 om 10 11 05](https://user-images.githubusercontent.com/90190991/133576003-0925a25e-e597-451e-9513-b48d5ae090c6.png)
-
-
+<img src="images/" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-![Schermafbeelding 2021-09-16 om 10 14 38](https://user-images.githubusercontent.com/90190991/133576676-11036c00-0b25-49d5-aee0-930f97797c20.png)
-
-
-
+<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -61,9 +56,6 @@ hier de naam van de pagina
 
 <details>
 <summary>uitwerken na afloop 2e werkgroep</summary>
- 
- Aardig wat opgestoken van de besporken opdrachten. Het lijkt me wel moeilijk om het zelf te gaan doen, maar ik denk dat 
- het uiteindelijk wel te doen is.
 
 ### de hele pagina: 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
