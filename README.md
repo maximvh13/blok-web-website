@@ -32,19 +32,19 @@ Surface plane
 
 ## Je website
 
-<details open>
-<summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-https://www.youtube.com/
+https://www.ajax.nl/ 
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Website blok web
-<img src="images/" width="375px" alt="omschrijving van de pagina">
+![homescherm](https://user-images.githubusercontent.com/90190991/135227317-5a7f9509-3051-4200-b055-323462551be8.png)
+
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+![shopscherm](https://user-images.githubusercontent.com/90190991/135227407-c8d7685e-de69-4ab0-b87a-84e2379e4e1e.png)
+
  
 </details>
 
@@ -145,33 +145,24 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
+ - met parkinson is de site slecht te bedienen, door middel van de pijltjes tab en enter wordt het ook niet heel veel beter.
+ Je ziet niet de focus state. Je weet dus niet waar je naar aan het kijken bent.
+ - Het hoog houden met de ballon maakt het bedienen van de site wel een stukje moeilijker. Wel is het nog enigzins te doen. Dit komt door de duidelijke afbeeldingen en grote titels. 
+ - Ook met de brillen is het nog redelijk goed te doen om de site te bedienen. Het enige waar je wel tegen aan kan lopen is de maat van de buttons. Die zijn soms nog moeilijk te zien en te lezen, ook zijn de titels die in de afbeedlingen staan niet helemaal duidelijk, maar het plaatje helpt daar wel weer bij.
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Buttons
+De buttons zouden een stukje groter mogen en misschien iets duidelijker in kleuren contrast.
+ 
 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Titels in afbeeldingen
+De titels in de afbeeldingen zijn met sommige brillen niet helemaal goed te lezen. Dus misschien iets doen met achtergrond en kleur combinatie. Ook kan er gekeken worden naar de dikte van de teksten.
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-</details>
-
-
+#### Focus state 
+Focus state ontbreekt. Die moet ik dus toevoegen.
 
 
 
