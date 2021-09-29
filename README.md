@@ -55,7 +55,7 @@ hier de naam van de pagina
 ## Breakdownschets (week 1)
 
 <details>
-<summary>uitwerken na afloop 2e werkgroep</summary>
+Ik had na deze week nog wel wat opstart problemen. Ik zou eerst voor de site youtube gaan, maar ben er in overleg achter gekomen dat dat niet zo'n goed idee is. Daarom ben ik toch gegaan voor ajax. Ik heb geprobeerd een beginnetje te maken, maar dat ging ook nog redelijk moeizaam. Ik ben namelijk de hele basis van HTML en CSS een beetje kwijt. De opdrachten hebben mij wel een beetje geholpen om dat weer terug te halen. 
 
 ### de hele pagina: 
 <img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
@@ -78,26 +78,23 @@ hier de naam van de pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Mijn HTML stond nog niet heel goed. Ik had de navigatie voor me gevoel redelijk in elkaar gezet. Maar toen ik met Sanne er naar keek was er nog wel veel verbetering nodig. Hier heeft hij mij wel goed bij geholpen.
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Maxim                        | student 2          | student 3    | student 4        |
+| ---                          | ---                | ---          | ---              |
+| Navigatie
+ Begin van de CSS + opmaak     | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- CSS opmaak gemaakt
+- HTML netjes neergezet en verbeterd
 
 </details>
 
@@ -111,26 +108,21 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik had in deze week wel aardige voortgang geboekt. Wel heb ik nog steeds moeite met de opdrachten en het toepassen op mijn eigen site. Ik mis vaak bepaalde stappen die je nodig hebt en dan lukt het net niet. Wel denk ik dat ik aardig in de buurt ben. Ik heb wel stappen gemaakt door alles op de goed plekken te krijgen en al mijn content toe te voegen.
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
+| Maxim      | student 2          | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+| Menu 
+  CSS naar kijken
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+
+- De opdracht nog een keer goed doen 
 
 </details>
 
@@ -163,6 +155,8 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 
 #### Focus state 
 Focus state ontbreekt. Die moet ik dus toevoegen.
+ 
+ Active state ontbreekt.
 
 
 
@@ -178,11 +172,10 @@ hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je we
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Maxim    | student 2          | student 3    | student 4        |
+| Java script           | ---                | ---          | ---             
+ | States 
+       | ...          | ...              |
 
 
 ### Verslag van meeting
