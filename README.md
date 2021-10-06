@@ -57,14 +57,14 @@ hier de naam van de pagina
 <details>
 Ik had na deze week nog wel wat opstart problemen. Ik zou eerst voor de site youtube gaan, maar ben er in overleg achter gekomen dat dat niet zo'n goed idee is. Daarom ben ik toch gegaan voor ajax. Ik heb geprobeerd een beginnetje te maken, maar dat ging ook nog redelijk moeizaam. Ik ben namelijk de hele basis van HTML en CSS een beetje kwijt. De opdrachten hebben mij wel een beetje geholpen om dat weer terug te halen. 
 
-### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
 
 ### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+![Schermafbeelding 2021-10-06 om 13 19 51](https://user-images.githubusercontent.com/90190991/136193162-edfec9f7-dc29-40dc-9101-21abc21db0b2.png)
+
 
 ### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+![Schermafbeelding 2021-10-06 om 13 19 51](https://user-images.githubusercontent.com/90190991/136193277-6781bd40-9f79-470d-90a2-932e155c8663.png)
+
 
 </details>
 
@@ -78,7 +78,7 @@ Ik had na deze week nog wel wat opstart problemen. Ik zou eerst voor de site you
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-Mijn HTML stond nog niet heel goed. Ik had de navigatie voor me gevoel redelijk in elkaar gezet. Maar toen ik met Sanne er naar keek was er nog wel veel verbetering nodig. Hier heeft hij mij wel goed bij geholpen.
+Mijn HTML stond nog niet heel goed. Ik had de navigatie voor me gevoel redelijk in elkaar gezet. Maar toen ik met Sanne er naar keek was er nog wel veel verbetering nodig. Hier heeft hij mij wel goed bij geholpen. Verder heb ik ook samen met Sanne mijn css een beetje geordend. Ik had met beide nog wel een beetje moeite. Ik had eigenlijk alleen de content nog er in gezet en nog niet eens alles echt goed gezet.
 
 
 ### Agenda voor meeting
@@ -87,14 +87,15 @@ samen met je groepje opstellen
 | Maxim                        | student 2          | student 3    | student 4        |
 | ---                          | ---                | ---          | ---              |
 | Navigatie
- Begin van de CSS + opmaak     | ...                | ...          | ...              |
-
+ Begin van de CSS + opmaak
+ Positioneren van afbeeldingen en ruimtes.
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
 - CSS opmaak gemaakt
 - HTML netjes neergezet en verbeterd
+- begin gemaakt aan de positioneringen van mijn afbeeldingen buttons en witruimtes.
 
 </details>
 
@@ -118,6 +119,7 @@ samen met je groepje opstellen
 | ---            | ---                | ---          | ---              |
 | Menu 
   CSS naar kijken
+ 
 
 ### Verslag van meeting
 
@@ -166,22 +168,23 @@ Focus state ontbreekt. Die moet ik dus toevoegen.
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Het gaat weer iets beter. Ik heb met yunus gezeten en die heeft me geholpen met mijn site completer maken.
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
 | Maxim    | student 2          | student 3    | student 4        |
-| Java script           | ---                | ---          | ---             
+| Java script  
+  | ---                | ---          | ---             
  | States 
-       | ...          | ...              |
+   Surface plane.
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
+- Lijst gezien met surface plane elementen.
 - punt 2
 - nog een punt
 - ...
