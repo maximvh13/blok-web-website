@@ -3,3 +3,331 @@
   box-sizing:border-box;  
 }
 
+
+
+
+/*********************/
+/* custom properties */
+/*********************/
+:root {
+  --rode-kleur:#c2002f;
+  --achtrgrond-kleur:white;
+  --witte-ruimtes:5vw;
+  --hoofd-tekstkleur: black;
+  --afbeelding-tekstkleur: white;
+  --witte-ruimte:5vw;
+  --button-kleur:lightgray;
+
+
+  --heading-over-foto-kleur: white;
+
+}
+
+
+/********************/
+/* algemene styling */
+/********************/
+body {
+  margin: 0;
+  font-family:'Saira', sans-serif;
+}
+
+body section {
+  width: 100%;
+}
+
+body > h1 {
+  line-height: 1.125em;
+}
+
+ul {
+  margin:0;
+  padding: 0;
+
+  list-style:none;
+}
+
+/**********/
+/* header */
+/**********/
+header {
+  position: relative;
+  display: flex;
+  background-color:var(--rode-kleur);
+}
+
+/* logo */
+header > a {
+  margin-right: auto;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  margin-left: 1em;
+  z-index: 200;
+}
+header button:nth-of-type(1) {
+  z-index: 200;
+  background-color:var(--rode-kleur);
+}
+
+header button:nth-of-type(2) {
+  background-color: var(--rode-kleur);
+  border: none;
+}
+
+/* menu button */
+header nav button {
+  position: relative;
+  z-index: 200;
+  margin-top: .8em;
+  margin-right: 1em;
+  background-color:var(--rode-kleur);
+
+}
+
+/* menu */
+
+
+header nav.toonMenu ul {
+  transform: translatey(0);
+}
+
+header button:nth-of-type(1) {
+  background: none;
+  border: none;
+}
+
+header nav button {
+  position: relative;
+  z-index: 100;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 4em 0 0;
+  background: var(--rode-kleur);
+  list-style: none;
+
+  position: fixed;
+
+  left: 0; 
+  right: 0; 
+  top: 0; 
+  bottom: 0;
+
+  transform: translatey(-100%);
+
+  transition: .5s;
+
+  z-index: 50;
+}
+
+header nav li {
+  margin: 0; padding: 0;
+  background-color:var(--rode-kleur);
+  text-decoration: none;
+}
+
+header nav a {
+  display: flex;
+  align-items: center;
+  gap: .25em;
+  padding: .25em 1em;
+  text-decoration: none;
+  color: white;
+  margin-top: .5em;
+  font-size: 1.5em;
+}
+
+header nav a.active {
+  font-weight: bold;
+}
+
+
+/********/
+/* MAIN */
+/********/
+
+/* articles */
+article {
+  position:relative;
+}
+
+article h1 {
+  position: absolute;
+
+  left:2em;
+  right:8em;
+  top:1.5em;
+  margin:0;
+
+  color:var(--heading-over-foto-kleur);
+  
+
+  font-size: 1.5em;
+
+  z-index: 10;
+
+}
+
+article h2 {
+  position: absolute;
+
+  left: 1.4em;
+  bottom: -4em;
+  width: 90%;
+  font-size: 1.3em;
+}
+
+hr {
+  border: 2px solid red;
+  width: 90%;
+  position: relative;
+  margin: 95px 20px 10px 30px
+}
+
+article a {
+  position: absolute;
+  left:3em;
+  bottom:1.5em;
+  background-color:var(--button-kleur);
+  color: black;
+  text-decoration: none;
+  border: none;
+  display: inline-block;
+  padding: .5em .5em;
+  font-weight: bold;
+
+}
+
+.homepagina article img {
+  display: flex;
+  width: 90%;
+  margin-top: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.5em;
+  filter: brightness(70%);
+}
+
+.shoppagina > img {
+  width: 100%;
+}
+
+.shoppagina article img {
+  width: 100%;
+}
+
+.shoppagina article {
+  width: 90%;
+  margin: 0 auto;
+}
+
+main article:nth-of-type(2) h1 {
+  border: black;
+}
+
+section {
+  position: relative;
+
+}
+
+.tekstshop h3 {
+  margin: 30px 0px 10px 37px;
+  width: 90%;
+  font-size: 2em;
+}
+
+.tekstshop h4 {
+  margin: 30px 10px 0px 37px;
+  width: 90%;
+  font-size: 1.5em;
+}
+
+.tekstshop p {
+  margin: 5px 0px 30px 37px;
+  width: 90%;
+  font-size: 1em;
+}
+
+/* sections */
+/* section a {
+  display: flex;
+  width: 90%;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+} */
+
+section a:nth-of-type(2) {
+  position: absolute;
+  left: 3em;
+  bottom: 1em;
+  background-color:var(--button-kleur);
+  text-decoration: none;
+  color: black;
+  border: none;
+  font-weight: bold;
+  padding: .5em .5em;
+}
+
+section img {
+  display: flex;
+  width: 90%;
+  margin-top: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* nav */
+main nav ul {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border: none;
+
+}
+
+
+/* form */
+form {
+  background-color:var(--rode-kleur);
+  width: 100%;
+  margin-top: -.1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3.5em;
+  justify-content: space-between;
+}
+
+
+form button {
+  padding: 10px 60px 10px 60px;
+  color: white;
+  background-color: black;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1.4em;
+  margin-left: 33px;
+  
+}
+
+input {
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 1em;
+  margin-left: 10px;
+}
+
+select {
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-size: 1em;
+
+}
+
+
+
+
+
