@@ -18,6 +18,8 @@
   --witte-ruimte:5vw;
   --button-kleur:lightgray;
 
+  --lettergrootte:
+
 
   --heading-over-foto-kleur: white;
 
@@ -30,6 +32,11 @@
 body {
   margin: 0;
   font-family:'Saira', sans-serif;
+  background-color: white;
+}
+.dark-mode {
+  background-color: black;
+  color: white;
 }
 
 body section {
@@ -147,50 +154,101 @@ header nav a.active {
 /* MAIN */
 /********/
 
-/* articles */
-article {
-  position:relative;
+section:nth-of-type(1) {
+  font-size: 1em;
 }
 
-article h1 {
+section:nth-of-type(1) article {
+  position: relative;
+  color: white;
+}
+
+section:nth-of-type(1) article h1 {
   position: absolute;
 
   left:2em;
-  right:8em;
   top:1.5em;
   margin:0;
+  color: white;
+
+  max-width: 16rem;
 
   color:var(--heading-over-foto-kleur);
   
 
-  font-size: 1.5em;
+  font-size: 1.3em;
 
   z-index: 10;
 
 }
 
-article h2 {
+@media (min-width:32em) {
+  section:nth-of-type(1) article h1 {
+    font-size: 1.5em;
+  }
+}
+
+
+section:nth-of-type(1) a {
   position: absolute;
+  left: 3em;
+  display: block;
+  bottom: 1em;
+  background-color:var(--button-kleur);
+  text-decoration: none;
+  color:black;
+  border: none;
+  font-weight: bold;
+  padding: .5em .5em;
+}
 
+/* section:nth-of-type(2) ul {
+  color: black;
+} */
+
+section:nth-of-type(2) article h2 {
+  --hoofd-tekstkleur: black;
+  margin-top: -1em;
+  margin-left: 1.4em;
+  margin-bottom: 1em;
+}
+
+section:nth-of-type(2) nav ul {
+  margin-left: 2.5em;
+}
+
+section:nth-of-type(2) nav ul a li {
+  color: black;
+  margin-right: 3em;
+}
+
+section:nth-of-type(3) a:nth-of-type(1) {
+  width: 100%;
+}
+
+section:nth-of-type(3) a:nth-of-type(2) {
+  color: black;
+}
+
+
+
+/* articles */
+
+
+article h2 {
+  color: black;
+  font-size: 1em;
   left: 1.4em;
-  bottom: -4em;
   width: 90%;
-  font-size: 1.3em;
 }
 
-hr {
-  border: 2px solid red;
-  width: 90%;
-  position: relative;
-  margin: 95px 20px 10px 30px
-}
 
 article a {
   position: absolute;
   left:3em;
   bottom:1.5em;
   background-color:var(--button-kleur);
-  color: black;
+  --hoofd-tekstkleur: black;
   text-decoration: none;
   border: none;
   display: inline-block;
@@ -232,7 +290,7 @@ section {
 }
 
 .tekstshop h3 {
-  margin: 30px 0px 10px 37px;
+  margin: 30px 10px 0px 37px;
   width: 90%;
   font-size: 2em;
 }
@@ -250,25 +308,14 @@ section {
 }
 
 /* sections */
-/* section a {
+section a {
   display: flex;
   width: 90%;
   margin-top: 1em;
   margin-left: auto;
   margin-right: auto;
-} */
-
-section a:nth-of-type(2) {
-  position: absolute;
-  left: 3em;
-  bottom: 1em;
-  background-color:var(--button-kleur);
-  text-decoration: none;
-  color: black;
-  border: none;
-  font-weight: bold;
-  padding: .5em .5em;
 }
+
 
 section img {
   display: flex;
