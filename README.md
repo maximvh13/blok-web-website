@@ -39,12 +39,13 @@ Surface plane
 https://www.ajax.nl/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-Website blok web
-<img src="images/" width="375px" alt="omschrijving van de pagina">
+Website blok web![Schermafbeelding 2021-11-11 om 16 49 32](https://user-images.githubusercontent.com/90190991/141327747-7b3c80b2-d7c8-4747-8a60-919e143a4136.png)
+
 
 #### Screenshot(s) van de tweede pagina (small screen):
 hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+![Schermafbeelding 2021-11-11 om 16 50 28](https://user-images.githubusercontent.com/90190991/141327920-083e4cf7-05dc-45bb-841d-84ad0b9405bc.png)
+
  
 </details>
 
