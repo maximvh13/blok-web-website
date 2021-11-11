@@ -11,18 +11,41 @@
 /*********************/
 :root {
   --rode-kleur:#c2002f;
-  --achtrgrond-kleur:white;
+  --achtergrond-kleur:white;
   --witte-ruimtes:5vw;
   --hoofd-tekstkleur: black;
   --afbeelding-tekstkleur: white;
-  --witte-ruimte:5vw;
   --button-kleur:lightgray;
+  --border-kleur: darkgray;
+  --border-klik-kleur: purple;
 
-  --lettergrootte:
+  --chat-achtergrond: lightgray;
+  --chat-tekst: black;
+  --chat-achtergrond-achter: white;
+  --chat-p: black;
+  --chat-titel: black;
+  --chat-min: black;
 
+  --button-tekst-hover: rgb(104, 101, 101);
 
-  --heading-over-foto-kleur: white;
+}
 
+/* Costum properties darkmode */
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --achtergrond-kleur:rgb(41, 38, 38);
+    --afbeelding-tekstkleur: black;
+    --button-kleur: rgb(114, 106, 106);
+    --hoofd-tekstkleur: white;
+
+    --chat-achtergrond: rgb(104, 101, 101);
+    --chat-tekst: white;
+    --chat-achtergrond-achter: rgb(41, 38, 38);
+    --chat-p: white;
+    --chat-titel: white;
+    --chat-min:white;
+  }
 }
 
 
@@ -32,11 +55,7 @@
 body {
   margin: 0;
   font-family:'Saira', sans-serif;
-  background-color: white;
-}
-.dark-mode {
-  background-color: black;
-  color: white;
+  background-color: var(--achtergrond-kleur);
 }
 
 body section {
@@ -92,8 +111,6 @@ header nav button {
 }
 
 /* menu */
-
-
 header nav.toonMenu ul {
   transform: translatey(0);
 }
@@ -140,10 +157,17 @@ header nav a {
   gap: .25em;
   padding: .25em 1em;
   text-decoration: none;
-  color: white;
+  color: var(--afbeelding-tekstkleur);
   margin-top: .5em;
   font-size: 1.5em;
+  transition: 0.25s;
 }
+
+header nav a:hover {
+  color:var(--button-tekst-hover);
+}
+
+
 
 header nav a.active {
   font-weight: bold;
@@ -154,13 +178,15 @@ header nav a.active {
 /* MAIN */
 /********/
 
+/* section 1 */
+
 section:nth-of-type(1) {
   font-size: 1em;
 }
 
 section:nth-of-type(1) article {
   position: relative;
-  color: white;
+  color: var(--afbeelding-tekstkleur);
 }
 
 section:nth-of-type(1) article h1 {
@@ -169,11 +195,9 @@ section:nth-of-type(1) article h1 {
   left:2em;
   top:1.5em;
   margin:0;
-  color: white;
+  color: var(--afbeelding-tekstkleur);
 
   max-width: 16rem;
-
-  color:var(--heading-over-foto-kleur);
   
 
   font-size: 1.3em;
@@ -193,69 +217,109 @@ section:nth-of-type(1) a {
   position: absolute;
   left: 3em;
   display: block;
+  width: 35%;
   bottom: 1em;
   background-color:var(--button-kleur);
   text-decoration: none;
-  color:black;
+  color: var(--hoofd-tekstkleur);
   border: none;
   font-weight: bold;
   padding: .5em .5em;
+  transition: 0.25s;
 }
 
-/* section:nth-of-type(2) ul {
-  color: black;
-} */
+section:nth-of-type(1) a:hover {
+  background-color:var(--button-tekst-hover);
+}
+
+/* section 2 */
+
+/* nav  */
+
+main nav ul {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border: none;
+
+}
+
+section:nth-of-type(2) nav ul li a {
+  color:var(--hoofd-tekstkleur);
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  width: 100%;
+  transition: 0.25s;
+}
+
+section:nth-of-type(2) nav ul li a:hover {
+  border-bottom: 2px solid var(--rode-kleur);
+}
+
+
+section:nth-of-type(2) nav ul li a.actief {
+  border-bottom: 2px solid var(--rode-kleur);
+}
 
 section:nth-of-type(2) article h2 {
-  --hoofd-tekstkleur: black;
+  color:var(--hoofd-tekstkleur);
   margin-top: -1em;
-  margin-left: 1.4em;
+  margin-left: 1.1em;
   margin-bottom: 1em;
+  font-size: 1.15em;
 }
 
-section:nth-of-type(2) nav ul {
-  margin-left: 2.5em;
-}
 
-section:nth-of-type(2) nav ul a li {
-  color: black;
-  margin-right: 3em;
-}
+/* section 3 */
 
 section:nth-of-type(3) a:nth-of-type(1) {
   width: 100%;
 }
 
 section:nth-of-type(3) a:nth-of-type(2) {
-  color: black;
+  position: absolute;
+  left: 3em;
+  display: block;
+  width: 25%;
+  bottom: 1em;
+  background-color:var(--button-kleur);
+  color: var(--hoofd-tekstkleur);
+  text-decoration: none;
+  border: none;
+  font-weight: bold;
+  padding: .5em .5em;
+  transition: 0.25s;
 }
 
 
 
-/* articles */
+section:nth-of-type(3) a:nth-of-type(2):hover {
+  background-color:var(--button-tekst-hover);
+}
 
-
-article h2 {
+/* article h2 {
   color: black;
   font-size: 1em;
   left: 1.4em;
   width: 90%;
-}
+} */
 
-
-article a {
+/* article a {
   position: absolute;
   left:3em;
   bottom:1.5em;
   background-color:var(--button-kleur);
-  --hoofd-tekstkleur: black;
+  color:var(--hoofd-tekstkleur);
   text-decoration: none;
   border: none;
   display: inline-block;
   padding: .5em .5em;
   font-weight: bold;
 
-}
+} */
+
+
+/* div home */
 
 .homepagina article img {
   display: flex;
@@ -266,6 +330,9 @@ article a {
   margin-bottom: 1.5em;
   filter: brightness(70%);
 }
+
+
+/* div shop */
 
 .shoppagina > img {
   width: 100%;
@@ -292,20 +359,24 @@ section {
 .tekstshop h3 {
   margin: 30px 10px 0px 37px;
   width: 90%;
-  font-size: 2em;
+  font-size: 1.5em;
+  color: var(--hoofd-tekstkleur);
 }
 
 .tekstshop h4 {
   margin: 30px 10px 0px 37px;
   width: 90%;
   font-size: 1.5em;
+  color: var(--hoofd-tekstkleur);
 }
 
 .tekstshop p {
   margin: 5px 0px 30px 37px;
   width: 90%;
   font-size: 1em;
+  color: var(--hoofd-tekstkleur);
 }
+
 
 /* sections */
 section a {
@@ -326,53 +397,161 @@ section img {
 }
 
 
-/* nav */
-main nav ul {
+/**********/
+/* forms */
+/**********/
+
+/* form shop*/
+form.shop-form {
+  background-color:var(--rode-kleur);
+  width: 100%;
+  margin-bottom: 3.5em;
+  justify-content: space-between;
+  position: relative;
+  padding: 0 1.5em;
+}
+
+
+form.shop-form button {
+  padding: 10px 60px 10px 60px;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: black;
+  color: white;
+  border: none;
+  font-size: .8em;
+  position: relative;
+  width: 100%;
+}
+
+form.shop-form div {
   display: flex;
-  justify-content: space-around;
-  text-align: center;
+  flex-direction: row;
+}
+
+form.shop-form input {
+  font-size: .8em;
+  flex: 1;
+  margin: 10px 1em 0 1em;
+  position: relative;
+  color: var(--hoofd-tekstkleur);
+  background-color: var(--afbeelding-tekstkleur);
+  border: none;
+}
+
+
+form.shop-form  select {
+  margin-top: 10px;
+  font-size: 1em;
+  position: relative;
+  width: 100%;
+  color: var(--hoofd-tekstkleur);
+  background-color: var(--afbeelding-tekstkleur);
+}
+
+
+/* form chat */
+
+form.chat-form {
+  position: fixed;
+  top: 2em;
+  bottom: 2em;
+  right: 1.5em;
+  width: calc(100% - 3em);
+  max-width: 20em;
+  background-color: lightgrey;
+  z-index: 300;
+  transform: scale(0);
+  transition: .5s;
+  transform-origin: right bottom;
+  border-radius: 2%;
+  background-color: var(--chat-achtergrond-achter);
+
+}
+
+form.chat-form.toonForm {
+	transform:scale(1);
+}
+
+aside > button {
+  position: fixed;
+  right: 2em;
+  bottom: 3em;
+  background: var(--rode-kleur);
+  transition:0.5s;
+  border-radius: 50%;
+  padding: .8em;
   border: none;
 
 }
 
-
-/* form */
-form {
-  background-color:var(--rode-kleur);
-  width: 100%;
-  margin-top: -.1em;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 3.5em;
-  justify-content: space-between;
-}
-
-
-form button {
-  padding: 10px 60px 10px 60px;
-  color: white;
-  background-color: black;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  font-size: 1.4em;
-  margin-left: 33px;
+aside > button.toonForm {
+  transform:scale(0);
+  border: none;
   
 }
 
-input {
-  margin-top: 10px;
-  margin-right: 10px;
-  font-size: 1em;
-  margin-left: 10px;
+aside form h2 {
+  position: fixed;
+  left: 1.8em;
+  color: var(--chat-titel);
 }
 
-select {
-  margin-top: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
-  font-size: 1em;
+aside form button {
+  position: fixed;
+  right: .2em;
+  top: 0.07em;
+  background-color: transparent;
+  border: none;
+  font-size: 3em;
+  color: var(--chat-min);
+}
+
+aside form button:hover {
+  color: var(--bor);
+}
+
+aside form {
+  padding: 0 1em;
+  overflow: hidden;
+}
+
+aside form::before {
+  content: "";
+  height: 4em;
+  left: 0;
+  top: 0;
+  width: 100%;
+  position: absolute;
+  background-color: var(--chat-achtergrond);
+}
+
+aside form div {
+  margin-top: 7em;
+  padding: 1em;
+  border-radius: 8px;
+  color: var(--chat-p);
+  background-color: var(--chat-achtergrond);
+  
+}
+
+
+
+aside form div input {
+  display: block;
+  width: 100%;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  border: 1px solid var(--border-kleur);
+  margin-bottom: 1.5em;
+  outline: none;
 
 }
+
+aside form div input:focus {
+  border: 1px solid var(--border-klik-kleur);
+}
+
 
 
 
