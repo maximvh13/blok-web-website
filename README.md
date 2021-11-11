@@ -56,16 +56,19 @@ hier de naam van de pagina
 ## Breakdownschets (week 1)
 
 <details>
-<summary>uitwerken na afloop 2e werkgroep</summary>
+Ik had na deze week nog wel wat opstart problemen. Ik zou eerst voor de site youtube gaan, maar ben er in overleg achter gekomen dat dat niet zo'n goed idee is. Daarom ben ik toch gegaan voor ajax. Ik heb geprobeerd een beginnetje te maken, maar dat ging ook nog redelijk moeizaam. Ik ben namelijk de hele basis van HTML en CSS een beetje kwijt. De opdrachten hebben mij wel een beetje geholpen om dat weer terug te halen. 
 
 ### de hele pagina: 
-<img src="images/homescherm.png" width="375px" alt="breakdown van de hele pagina">
+![Schermafbeelding 2021-11-11 om 16 49 32](https://user-images.githubusercontent.com/90190991/141328162-f0d6bdfc-d471-4dce-9523-4eab37950654.png)
+
 
 ### dynamisch deel (bijv menu): 
-<img src="images/menu.png" width="375px" alt="breakdown van een dynamisch deel">
+![Schermafbeelding 2021-11-11 om 16 53 23](https://user-images.githubusercontent.com/90190991/141328235-61a2806c-ec0d-41ac-bd2a-6567ead7c5d6.png)
+
 
 ### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+![Schermafbeelding 2021-11-11 om 16 54 15](https://user-images.githubusercontent.com/90190991/141328342-63a29566-cbd3-481f-a1f5-376bea9a3727.png)
+
 
 </details>
 
@@ -79,26 +82,26 @@ hier de naam van de pagina
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Mijn HTML stond nog niet heel goed. Ik had de navigatie voor me gevoel redelijk in elkaar gezet. Maar toen ik met Sanne er naar keek was er nog wel veel verbetering nodig. Hier heeft hij mij wel goed bij geholpen. Verder heb ik ook samen met Sanne mijn css een beetje geordend. Ik had met beide nog wel een beetje moeite. Ik had eigenlijk alleen de content nog er in gezet en nog niet eens alles echt goed gezet.
+
+
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+| Maxim                        | student 2          | student 3    | student 4        |
+| ---                          | ---                | ---          | ---              |
+| Navigatie
+ Begin van de CSS + opmaak
+ Positioneren van afbeeldingen en ruimtes.
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- CSS opmaak gemaakt
+- HTML netjes neergezet en verbeterd
+- begin gemaakt aan de positioneringen van mijn afbeeldingen buttons en witruimtes.
 
 </details>
 
@@ -112,26 +115,22 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor 2e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik had in deze week wel aardige voortgang geboekt. Wel heb ik nog steeds moeite met de opdrachten en het toepassen op mijn eigen site. Ik mis vaak bepaalde stappen die je nodig hebt en dan lukt het net niet. Wel denk ik dat ik aardig in de buurt ben. Ik heb wel stappen gemaakt door alles op de goed plekken te krijgen en al mijn content toe te voegen.
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
+| Maxim      | student 2          | student 3    | student 4        |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
-
+| Menu 
+  CSS naar kijken
+ 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+
+- De opdracht nog een keer goed doen, ik kreeg als tip om nog een keer naar de gemaakte oefeningen te kijken, daar kan je veel uithalen van de dingen waar ik tegenaan liep. 
 
 </details>
 
@@ -146,33 +145,26 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 
 ### Bevindingen
 Lijst met je bevindingen die in de test naar voren kwamen:
+ - met parkinson is de site slecht te bedienen, door middel van de pijltjes tab en enter wordt het ook niet heel veel beter.
+ Je ziet niet de focus state. Je weet dus niet waar je naar aan het kijken bent.
+ - Het hoog houden met de ballon maakt het bedienen van de site wel een stukje moeilijker. Wel is het nog enigzins te doen. Dit komt door de duidelijke afbeeldingen en grote titels. 
+ - Ook met de brillen is het nog redelijk goed te doen om de site te bedienen. Het enige waar je wel tegen aan kan lopen is de maat van de buttons. Die zijn soms nog moeilijk te zien en te lezen, ook zijn de titels die in de afbeedlingen staan niet helemaal duidelijk, maar het plaatje helpt daar wel weer bij.
 
-#### Titel eerste bevinding
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-
-#### Titel tweede bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
+#### Buttons
+De buttons zouden een stukje groter mogen en misschien iets duidelijker in kleuren contrast.
+ 
 
 
-#### Titel volgende bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
+#### Titels in afbeeldingen
+De titels in de afbeeldingen zijn met sommige brillen niet helemaal goed te lezen. Dus misschien iets doen met achtergrond en kleur combinatie. Ook kan er gekeken worden naar de dikte van de teksten.
 
 Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
 
 
-#### Titel nog een bevinding. 
-Hier korte omschrijving (met indien nodig een afbeelding)
-
-Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbeelding)
-
-</details>
-
-
+#### Focus state 
+Focus state ontbreekt. Die moet ik dus toevoegen.
+ 
+ Active state ontbreekt.
 
 
 
@@ -182,24 +174,24 @@ Hier een omschrijving van hoe het opgelost kan worden (met indien nodig een afbe
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Het gaat weer iets beter. Ik heb met yunus gezeten en die heeft me geholpen met mijn site completer maken. Wel denk ik dat ik nog een aantal stappen moet maken. We hebben aan mijn html en css gezeten. Ook zei hij dat dat nog niet helemaal goed stond. Ik bouw het niet helemaal juist op. Daar heb ik tips over gekregen en ben ik mee geholpen. 
 
 
 ### Agenda voor meeting
 samen met je groepje opstellen
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Maxim    | student 2          | student 3    | student 4        |
+| Java script  
+  | ---                | ---          | ---             
+ | States 
+   Surface plane. hover state - chat icoon maken met in en uiklap functie - formulier goedzetten - darkmode 
 
 
 ### Verslag van meeting
 hier na afloop snel de uitkomsten van de meeting vastleggen
 
-- punt 1
-- punt 2
+- Bedacht welke surface plane elementen ik het beste kan gaan behandelen
+- Verder gekomen met de opmaak van mijn html en css
 - nog een punt
 - ...
 
@@ -215,7 +207,7 @@ hier na afloop snel de uitkomsten van de meeting vastleggen
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik wist van tevoren al dat het nog niet helemaal goed was. Mijn site was nog niet helemaal compleet en er waren nog bepaalde dingen waar ik niet uit kwam en wat nog niet goed stond, ookal heb ik een tijdje met Yunus gezeten. Ik weet grotendeels wel wat beter moet en wat er nog van mij verwacht wordt, maar ik had geen tijd meer en ik kwam er zelf gewoon niet helemaal uit. 
 
 ### Screenshot(s)
 
@@ -234,8 +226,7 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+https://www.w3schools.com/
+https://developer.mozilla.org/en-US/docs/Web/CSS/position 
 
 </details>
